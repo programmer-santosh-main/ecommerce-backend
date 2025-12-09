@@ -1,0 +1,72 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.iml
+
+# TypeScript build info (if using TS)
+*.tsbuildinfo
+
+# PM2 logs / pids
+pids
+*.pid
+*.seed
+*.pid.lock
+pm2-logs/
+.pm2/
+
+# Upload folders (if storing locally instead of cloud storage)
+uploads/
+public/uploads/
+public/temp/
+
+# Cache
+.cache/
+.eslintcache
+.stylelintcache
+
+# Coverage
+coverage/
+
+# Firebase / GCP (optional)
+.firebase/
+functions/node_modules/
+
+# Docker
+docker-data/
+*.dockerfile
+docker-compose.override.yml
+
+# Misc
+*.swp
+*.swo
+
