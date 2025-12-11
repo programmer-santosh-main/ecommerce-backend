@@ -9,8 +9,8 @@ const generateToken = (id) => {
     expiresIn: process.env.JWT_EXPIRE || "1d",
   });
 };
-const clientUrls = process.env.CLIENT_URL.split(",").map(u => u.trim());
-const primaryUrl = clientUrls[0].replace(/\/$/, ""); // use the first domain
+
+const primaryUrl = "https://www.nepalikart.com"; // use the first domain
 
 // ✅ Register User
 export const registerUser = async (req, res) => {
